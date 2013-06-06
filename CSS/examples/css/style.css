@@ -48,7 +48,7 @@ header, .main-content {
 
 header {
 	border-bottom: 1px solid #ccc;
-	padding: 20px 60px;
+	padding: 20px 20px;
 }
 
 aside {
@@ -81,7 +81,7 @@ footer {
 }
 
 #content {
-	padding: 40px 20px 0 20px;
+	padding: 40px 20px 0 30px;
 	width: 600px;
 }
 
