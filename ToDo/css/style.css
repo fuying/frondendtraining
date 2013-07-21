@@ -8,6 +8,7 @@ body {
 
 header {
   border-radius: 10px 10px 0 0;
+  padding: 5px;
   color: #fff;
   background-color: #474747;
   text-align: center;
@@ -15,13 +16,16 @@ header {
 
 h1 {
   font-size: 30px;
+  font-weight: normal;
 }
 
 #container {
   width: 98%;
   min-width: 300px;
   margin: 0 auto;
+  margin-top: 5px;
   border-radius: 11px;
+  box-shadow: 0 0 5px #444;
 }
 
 article {
