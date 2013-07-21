@@ -6,30 +6,28 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <link rel="stylesheet" href="css/font-awesome.min.css">
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/todo.js"></script>
 </head>
 <body>
-  <header>
-    <h1>
-      ToDo List
-    </h1>
-  </header>
-  <article>
-    <section>
-      <ul class="todo-list">
-        <li><div>test</div><span><i class='icon-check-empty check-box'></i></span></li>
-      </ul>
-    </section>
-    <section class="add-todo">
-      <form>
-        <input class="new-todo" type="text">
-        <button class="add">add todo</button>
-      </form>
-    </section>
-  </article>
-  <footer>
-    @fuying
-  </footer>
+  <div id="container">
+    <header>
+      <h1>
+        ToDo List
+      </h1>
+    </header>
+    <article>
+      <section>
+        <ul class="todo-list clearfix">
+        </ul>
+      </section>
+      <section class="add-todo">
+          <input class="new-todo" type="text" placeholder="Add Todo">
+      </section>
+    </article>
+    <footer>
+      @fuying
+    </footer>
+  </div>
 </body>
 </html>
